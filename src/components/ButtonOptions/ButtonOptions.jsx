@@ -1,11 +1,9 @@
 import { BtnWrapper, Button } from "./ButtonOptions.styled";
 
-const ButtonOptions = ({ statesArray, onLeaveFeedback, noteUsers, debounce}) => {
-  console.log("statesArray:", statesArray, "onLeaveFeedback", onLeaveFeedback)
+const ButtonOptions = ({ statesArray, onLeaveFeedback}) => {
   return (
     <BtnWrapper>
       {        statesArray.map((stateArray) => {
-        console.log("stateArray:", stateArray);
         return (
           <Button
             type="button"
@@ -21,3 +19,6 @@ const ButtonOptions = ({ statesArray, onLeaveFeedback, noteUsers, debounce}) => 
   );
 };
 export default ButtonOptions
+
+
+
