@@ -11,7 +11,9 @@ state = {
   good: 0,
   neutral: 0,
   bad: 0
-}
+  }
+
+  
 
   // ! ====== Callback for count a press one of them key ======
   onLeaveFeedback = (state) => {
