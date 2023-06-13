@@ -1,4 +1,5 @@
 import { BtnWrapper, Button } from "./ButtonOptions.styled";
+import PropTypes from 'prop-types';
 
 const ButtonOptions = ({ statesArray, onLeaveFeedback}) => {
   return (
@@ -19,6 +20,11 @@ const ButtonOptions = ({ statesArray, onLeaveFeedback}) => {
   );
 };
 export default ButtonOptions
+
+ButtonOptions.propTypes = {
+  onLeaveFeedback: PropTypes.func.isRequired,
+  statesArray: PropTypes.array.isRequired
+};
 
 
 

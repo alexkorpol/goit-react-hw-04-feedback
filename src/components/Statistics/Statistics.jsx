@@ -39,14 +39,15 @@ const Statistics = ({
   );
 };
 
-Statistics.propTypes = {
+
+export default Statistics;
+
+  Statistics.propTypes = {
   good: PropTypes.number,
   neutral: PropTypes.number,
   bad: PropTypes.number,
   total: PropTypes.number,
   positivePercentage: PropTypes.number.isRequired,
   neutralPercentage: PropTypes.number.isRequired,
-badPercentage: PropTypes.number.isRequired,
+  badPercentage: PropTypes.number.isRequired,
 };
-
-export default Statistics;

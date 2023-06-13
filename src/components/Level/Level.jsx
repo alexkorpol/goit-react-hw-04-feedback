@@ -10,8 +10,9 @@ import PropTypes from 'prop-types';
   );
 };
 
+
+export default Level;
+
 Level.propTypes = {
    children: PropTypes.any.isRequired,
 };
-
-export default Level;
